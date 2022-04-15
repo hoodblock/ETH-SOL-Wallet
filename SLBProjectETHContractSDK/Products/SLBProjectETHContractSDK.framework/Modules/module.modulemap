@@ -1,0 +1,6 @@
+framework module SLBProjectETHContractSDK {
+  umbrella header "SLBProjectETHContractSDK.h"
+
+  export *
+  module * { export * }
+}

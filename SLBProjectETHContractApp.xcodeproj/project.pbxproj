@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04217F6927FAD339000A4928 /* CreateVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04217F6327FAD339000A4928 /* CreateVC.xib */; };
+		04217F6A27FAD339000A4928 /* BalanceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04217F6527FAD339000A4928 /* BalanceVC.xib */; };
+		04217F6B27FAD339000A4928 /* BalanceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04217F6727FAD339000A4928 /* BalanceVC.m */; };
+		04217F6C27FAD339000A4928 /* CreateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04217F6827FAD339000A4928 /* CreateVC.m */; };
+		04217F7027FAD342000A4928 /* TransactionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04217F6E27FAD342000A4928 /* TransactionVC.m */; };
+		04217F7127FAD342000A4928 /* TransactionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04217F6F27FAD342000A4928 /* TransactionVC.xib */; };
+		0432B10A28094DB40094BAF6 /* SLBProjectETHContractSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0432B10928094DB40094BAF6 /* SLBProjectETHContractSDK.framework */; };
+		0432B10B28094DB40094BAF6 /* SLBProjectETHContractSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0432B10928094DB40094BAF6 /* SLBProjectETHContractSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04A4009227F4529800DC2B79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4009127F4529800DC2B79 /* AppDelegate.m */; };
+		04A4009827F4529800DC2B79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A4009727F4529800DC2B79 /* ViewController.m */; };
+		04A4009B27F4529800DC2B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A4009927F4529800DC2B79 /* Main.storyboard */; };
+		04A4009D27F4529900DC2B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A4009C27F4529900DC2B79 /* Assets.xcassets */; };
+		04A400A027F4529900DC2B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A4009E27F4529900DC2B79 /* LaunchScreen.storyboard */; };
+		04A400A327F4529900DC2B79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A400A227F4529900DC2B79 /* main.m */; };
+		04A400AD27F4529900DC2B79 /* SLBProjectETHContractAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A400AC27F4529900DC2B79 /* SLBProjectETHContractAppTests.m */; };
+		04A400B727F4529900DC2B79 /* SLBProjectETHContractAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A400B627F4529900DC2B79 /* SLBProjectETHContractAppUITests.m */; };
+		04A400B927F4529900DC2B79 /* SLBProjectETHContractAppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A400B827F4529900DC2B79 /* SLBProjectETHContractAppUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A400A927F4529900DC2B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A4008527F4529800DC2B79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A4008C27F4529800DC2B79;
+			remoteInfo = SLBProjectETHContractApp;
+		};
+		04A400B327F4529900DC2B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A4008527F4529800DC2B79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A4008C27F4529800DC2B79;
+			remoteInfo = SLBProjectETHContractApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		049EBA4527FC152100705385 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0432B10B28094DB40094BAF6 /* SLBProjectETHContractSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04217F6327FAD339000A4928 /* CreateVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateVC.xib; sourceTree = "<group>"; };
+		04217F6427FAD339000A4928 /* BalanceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalanceVC.h; sourceTree = "<group>"; };
+		04217F6527FAD339000A4928 /* BalanceVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BalanceVC.xib; sourceTree = "<group>"; };
+		04217F6627FAD339000A4928 /* CreateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateVC.h; sourceTree = "<group>"; };
+		04217F6727FAD339000A4928 /* BalanceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalanceVC.m; sourceTree = "<group>"; };
+		04217F6827FAD339000A4928 /* CreateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateVC.m; sourceTree = "<group>"; };
+		04217F6D27FAD342000A4928 /* TransactionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionVC.h; sourceTree = "<group>"; };
+		04217F6E27FAD342000A4928 /* TransactionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionVC.m; sourceTree = "<group>"; };
+		04217F6F27FAD342000A4928 /* TransactionVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionVC.xib; sourceTree = "<group>"; };
+		0432B10928094DB40094BAF6 /* SLBProjectETHContractSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SLBProjectETHContractSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A4008D27F4529800DC2B79 /* SLBProjectETHContractApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLBProjectETHContractApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A4009027F4529800DC2B79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04A4009127F4529800DC2B79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04A4009627F4529800DC2B79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04A4009727F4529800DC2B79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04A4009A27F4529800DC2B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A4009C27F4529900DC2B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A4009F27F4529900DC2B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A400A127F4529900DC2B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A400A227F4529900DC2B79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04A400A827F4529900DC2B79 /* SLBProjectETHContractAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLBProjectETHContractAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A400AC27F4529900DC2B79 /* SLBProjectETHContractAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLBProjectETHContractAppTests.m; sourceTree = "<group>"; };
+		04A400B227F4529900DC2B79 /* SLBProjectETHContractAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLBProjectETHContractAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A400B627F4529900DC2B79 /* SLBProjectETHContractAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLBProjectETHContractAppUITests.m; sourceTree = "<group>"; };
+		04A400B827F4529900DC2B79 /* SLBProjectETHContractAppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLBProjectETHContractAppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		04B5B12E2803D23B006E1674 /* SLBProjectETHContractApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLBProjectETHContractApp-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A4008A27F4529800DC2B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0432B10A28094DB40094BAF6 /* SLBProjectETHContractSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A400A527F4529900DC2B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A400AF27F4529900DC2B79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04217F7227FAD365000A4928 /* SLBTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				04217F6D27FAD342000A4928 /* TransactionVC.h */,
+				04217F6E27FAD342000A4928 /* TransactionVC.m */,
+				04217F6F27FAD342000A4928 /* TransactionVC.xib */,
+			);
+			path = SLBTransaction;
+			sourceTree = "<group>";
+		};
+		04217F7327FAD382000A4928 /* SLBBalance */ = {
+			isa = PBXGroup;
+			children = (
+				04217F6427FAD339000A4928 /* BalanceVC.h */,
+				04217F6727FAD339000A4928 /* BalanceVC.m */,
+				04217F6527FAD339000A4928 /* BalanceVC.xib */,
+			);
+			path = SLBBalance;
+			sourceTree = "<group>";
+		};
+		04217F7427FAD39D000A4928 /* SLBCreate */ = {
+			isa = PBXGroup;
+			children = (
+				04217F6627FAD339000A4928 /* CreateVC.h */,
+				04217F6827FAD339000A4928 /* CreateVC.m */,
+				04217F6327FAD339000A4928 /* CreateVC.xib */,
+			);
+			path = SLBCreate;
+			sourceTree = "<group>";
+		};
+		04217F7527FAD68D000A4928 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0432B10928094DB40094BAF6 /* SLBProjectETHContractSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04A4008427F4529800DC2B79 = {
+			isa = PBXGroup;
+			children = (
+				04A4008F27F4529800DC2B79 /* SLBProjectETHContractApp */,
+				04A400AB27F4529900DC2B79 /* SLBProjectETHContractAppTests */,
+				04A400B527F4529900DC2B79 /* SLBProjectETHContractAppUITests */,
+				04A4008E27F4529800DC2B79 /* Products */,
+				04217F7527FAD68D000A4928 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04A4008E27F4529800DC2B79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A4008D27F4529800DC2B79 /* SLBProjectETHContractApp.app */,
+				04A400A827F4529900DC2B79 /* SLBProjectETHContractAppTests.xctest */,
+				04A400B227F4529900DC2B79 /* SLBProjectETHContractAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A4008F27F4529800DC2B79 /* SLBProjectETHContractApp */ = {
+			isa = PBXGroup;
+			children = (
+				04A4009027F4529800DC2B79 /* AppDelegate.h */,
+				04A4009127F4529800DC2B79 /* AppDelegate.m */,
+				04A4009627F4529800DC2B79 /* ViewController.h */,
+				04A4009727F4529800DC2B79 /* ViewController.m */,
+				04217F7427FAD39D000A4928 /* SLBCreate */,
+				04217F7327FAD382000A4928 /* SLBBalance */,
+				04217F7227FAD365000A4928 /* SLBTransaction */,
+				04A4009927F4529800DC2B79 /* Main.storyboard */,
+				04A4009C27F4529900DC2B79 /* Assets.xcassets */,
+				04A4009E27F4529900DC2B79 /* LaunchScreen.storyboard */,
+				04A400A127F4529900DC2B79 /* Info.plist */,
+				04A400A227F4529900DC2B79 /* main.m */,
+				04B5B12E2803D23B006E1674 /* SLBProjectETHContractApp-Bridging-Header.h */,
+			);
+			path = SLBProjectETHContractApp;
+			sourceTree = "<group>";
+		};
+		04A400AB27F4529900DC2B79 /* SLBProjectETHContractAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A400AC27F4529900DC2B79 /* SLBProjectETHContractAppTests.m */,
+			);
+			path = SLBProjectETHContractAppTests;
+			sourceTree = "<group>";
+		};
+		04A400B527F4529900DC2B79 /* SLBProjectETHContractAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04A400B627F4529900DC2B79 /* SLBProjectETHContractAppUITests.m */,
+				04A400B827F4529900DC2B79 /* SLBProjectETHContractAppUITestsLaunchTests.m */,
+			);
+			path = SLBProjectETHContractAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A4008C27F4529800DC2B79 /* SLBProjectETHContractApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A400BC27F4529900DC2B79 /* Build configuration list for PBXNativeTarget "SLBProjectETHContractApp" */;
+			buildPhases = (
+				04A4008927F4529800DC2B79 /* Sources */,
+				04A4008A27F4529800DC2B79 /* Frameworks */,
+				04A4008B27F4529800DC2B79 /* Resources */,
+				049EBA4527FC152100705385 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLBProjectETHContractApp;
+			productName = SLBProjectETHContractApp;
+			productReference = 04A4008D27F4529800DC2B79 /* SLBProjectETHContractApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A400A727F4529900DC2B79 /* SLBProjectETHContractAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A400BF27F4529900DC2B79 /* Build configuration list for PBXNativeTarget "SLBProjectETHContractAppTests" */;
+			buildPhases = (
+				04A400A427F4529900DC2B79 /* Sources */,
+				04A400A527F4529900DC2B79 /* Frameworks */,
+				04A400A627F4529900DC2B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A400AA27F4529900DC2B79 /* PBXTargetDependency */,
+			);
+			name = SLBProjectETHContractAppTests;
+			productName = SLBProjectETHContractAppTests;
+			productReference = 04A400A827F4529900DC2B79 /* SLBProjectETHContractAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04A400B127F4529900DC2B79 /* SLBProjectETHContractAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A400C227F4529900DC2B79 /* Build configuration list for PBXNativeTarget "SLBProjectETHContractAppUITests" */;
+			buildPhases = (
+				04A400AE27F4529900DC2B79 /* Sources */,
+				04A400AF27F4529900DC2B79 /* Frameworks */,
+				04A400B027F4529900DC2B79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A400B427F4529900DC2B79 /* PBXTargetDependency */,
+			);
+			name = SLBProjectETHContractAppUITests;
+			productName = SLBProjectETHContractAppUITests;
+			productReference = 04A400B227F4529900DC2B79 /* SLBProjectETHContractAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A4008527F4529800DC2B79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					04A4008C27F4529800DC2B79 = {
+						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
+					};
+					04A400A727F4529900DC2B79 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 04A4008C27F4529800DC2B79;
+					};
+					04A400B127F4529900DC2B79 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 04A4008C27F4529800DC2B79;
+					};
+				};
+			};
+			buildConfigurationList = 04A4008827F4529800DC2B79 /* Build configuration list for PBXProject "SLBProjectETHContractApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A4008427F4529800DC2B79;
+			productRefGroup = 04A4008E27F4529800DC2B79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A4008C27F4529800DC2B79 /* SLBProjectETHContractApp */,
+				04A400A727F4529900DC2B79 /* SLBProjectETHContractAppTests */,
+				04A400B127F4529900DC2B79 /* SLBProjectETHContractAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A4008B27F4529800DC2B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A400A027F4529900DC2B79 /* LaunchScreen.storyboard in Resources */,
+				04A4009D27F4529900DC2B79 /* Assets.xcassets in Resources */,
+				04217F6927FAD339000A4928 /* CreateVC.xib in Resources */,
+				04A4009B27F4529800DC2B79 /* Main.storyboard in Resources */,
+				04217F6A27FAD339000A4928 /* BalanceVC.xib in Resources */,
+				04217F7127FAD342000A4928 /* TransactionVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A400A627F4529900DC2B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A400B027F4529900DC2B79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A4008927F4529800DC2B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04217F6C27FAD339000A4928 /* CreateVC.m in Sources */,
+				04A4009827F4529800DC2B79 /* ViewController.m in Sources */,
+				04A4009227F4529800DC2B79 /* AppDelegate.m in Sources */,
+				04217F6B27FAD339000A4928 /* BalanceVC.m in Sources */,
+				04217F7027FAD342000A4928 /* TransactionVC.m in Sources */,
+				04A400A327F4529900DC2B79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A400A427F4529900DC2B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A400AD27F4529900DC2B79 /* SLBProjectETHContractAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A400AE27F4529900DC2B79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A400B927F4529900DC2B79 /* SLBProjectETHContractAppUITestsLaunchTests.m in Sources */,
+				04A400B727F4529900DC2B79 /* SLBProjectETHContractAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A400AA27F4529900DC2B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A4008C27F4529800DC2B79 /* SLBProjectETHContractApp */;
+			targetProxy = 04A400A927F4529900DC2B79 /* PBXContainerItemProxy */;
+		};
+		04A400B427F4529900DC2B79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A4008C27F4529800DC2B79 /* SLBProjectETHContractApp */;
+			targetProxy = 04A400B327F4529900DC2B79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A4009927F4529800DC2B79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A4009A27F4529800DC2B79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A4009E27F4529900DC2B79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A4009F27F4529900DC2B79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A400BA27F4529900DC2B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04A400BB27F4529900DC2B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A400BD27F4529900DC2B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6578QT86B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLBProjectETHContractApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SLBProject.SLBProjectETHContractApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SLBProjectETHContractApp/SLBProjectETHContractApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04A400BE27F4529900DC2B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6578QT86B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLBProjectETHContractApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SLBProject.SLBProjectETHContractApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SLBProjectETHContractApp/SLBProjectETHContractApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04A400C027F4529900DC2B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6578QT86B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SLBProject.SLBProjectETHContractAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLBProjectETHContractApp.app/SLBProjectETHContractApp";
+			};
+			name = Debug;
+		};
+		04A400C127F4529900DC2B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6578QT86B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SLBProject.SLBProjectETHContractAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLBProjectETHContractApp.app/SLBProjectETHContractApp";
+			};
+			name = Release;
+		};
+		04A400C327F4529900DC2B79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6578QT86B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SLBProject.SLBProjectETHContractAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLBProjectETHContractApp;
+			};
+			name = Debug;
+		};
+		04A400C427F4529900DC2B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6578QT86B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SLBProject.SLBProjectETHContractAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SLBProjectETHContractApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A4008827F4529800DC2B79 /* Build configuration list for PBXProject "SLBProjectETHContractApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A400BA27F4529900DC2B79 /* Debug */,
+				04A400BB27F4529900DC2B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A400BC27F4529900DC2B79 /* Build configuration list for PBXNativeTarget "SLBProjectETHContractApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A400BD27F4529900DC2B79 /* Debug */,
+				04A400BE27F4529900DC2B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A400BF27F4529900DC2B79 /* Build configuration list for PBXNativeTarget "SLBProjectETHContractAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A400C027F4529900DC2B79 /* Debug */,
+				04A400C127F4529900DC2B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A400C227F4529900DC2B79 /* Build configuration list for PBXNativeTarget "SLBProjectETHContractAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A400C327F4529900DC2B79 /* Debug */,
+				04A400C427F4529900DC2B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A4008527F4529800DC2B79 /* Project object */;
+}
